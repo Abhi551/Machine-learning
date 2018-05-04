@@ -1,4 +1,4 @@
-import matplotlib.pyplot as plt 
+import matplotlib.pyplot as plt  	
 from matplotlib import style
 import numpy as  np 
 from sklearn.datasets import make_regression
