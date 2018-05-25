@@ -16,7 +16,6 @@ C_values = [.0001 , 100]
 for c in C_values :
 	clf = LinearSVC(C = c)
 	clf.fit(x_train , y_train)
-
 	print (" the training score for c = %d is %.5f " %( c , clf.score(x_train , y_train)))
 	print (" the test score for c = %d is %.5f " %( c , clf.score(x_test , y_test)))
 	print ("\n\n")
